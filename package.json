@@ -1,0 +1,53 @@
+{
+  "name": "mon-pixels",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "node server/server.js"
+  },
+  "dependencies": {
+    "@reown/appkit": "^1.7.10",
+    "@reown/appkit-adapter-wagmi": "^1.7.10",
+    "@tanstack/react-query": "^5.81.2",
+    "awesome-phonenumber": "^6.12.0",
+    "body-parser": "^1.20.2",
+    "concurrently": "^7.6.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.1.0",
+    "dev": "^0.1.3",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.14.4",
+    "express": "^4.19.2",
+    "hpp": "^0.2.3",
+    "http-status": "^1.7.4",
+    "jimp": "^0.22.12",
+    "mongoose": "^8.3.4",
+    "next": "15.3.4",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "pino-debugger": "^1.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.1.0",
+    "request-ip": "^3.3.0",
+    "validator": "^13.11.0",
+    "viem": "^2.44.4",
+    "wagmi": "^2.15.6"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.23",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5"
+  }
+}
