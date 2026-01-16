@@ -68,6 +68,9 @@ importers:
       passport-jwt:
         specifier: ^4.0.1
         version: 4.0.1
+      pino:
+        specifier: ^10.2.0
+        version: 10.2.0
       pino-debugger:
         specifier: ^1.0.4
         version: 1.0.4
