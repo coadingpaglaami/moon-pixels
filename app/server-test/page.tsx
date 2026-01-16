@@ -35,7 +35,7 @@ export default function ServerTestPage() {
           <h2 className="text-xl mb-4">Configuration</h2>
           <p className="text-gray-400 mb-2">Server URL:</p>
           <code className="bg-gray-700 px-3 py-2 rounded block">
-            {process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:4000'}
+            {process.env.NEXT_PUBLIC_SERVER_URL || 'http://https://moon-pixels-backend.onrender.com'}
           </code>
         </div>
 

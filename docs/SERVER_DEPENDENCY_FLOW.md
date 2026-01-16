@@ -89,7 +89,7 @@
                          ▼
 ┌──────────────────────────────────────────────────────────────┐
 │                    Backend Server                             │
-│                  (http://localhost:4000)                      │
+│                  (http://https://moon-pixels-backend.onrender.com)                      │
 │                                                               │
 │  • Express.js server                                          │
 │  • No modifications needed                                    │
@@ -167,7 +167,7 @@ app/layout.tsx
 ```
 .env.local
     │
-    └─ NEXT_PUBLIC_SERVER_URL=http://localhost:4000
+    └─ NEXT_PUBLIC_SERVER_URL=http://https://moon-pixels-backend.onrender.com
             │
             ▼
     Next.js build process

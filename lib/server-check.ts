@@ -5,7 +5,7 @@
  * frontend to load. Reusable across projects - just update SERVER_URL.
  */
 
-const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:4000';
+const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || 'https://moon-pixels-backend.onrender.com';
 const CHECK_TIMEOUT = 5000; // 5 seconds
 const RETRY_INTERVAL = 2000; // 2 seconds between retries
 
