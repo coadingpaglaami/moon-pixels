@@ -66,6 +66,10 @@ app.use(function (req, res, next) {
 });
 
 const routes = require("./routes/index");
+app.get('/', (req, res) => {
+  res.send('Server is running');
+});
+
 // Use Routes
 app.use("/api", routes);
 app.use("/public/:w-:h/*", changephoto);
